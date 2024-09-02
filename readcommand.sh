@@ -10,6 +10,6 @@ echo "username is $username"
 
 echo "please enter password"
 
-read pass
+read -s pass
 
 echo "passwor is $pass"
