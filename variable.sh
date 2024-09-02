@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+#taking command line arguments
 echo "He"
 p1=$1
 p2=$2
