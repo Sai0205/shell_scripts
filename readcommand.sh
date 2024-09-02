@@ -1,7 +1,7 @@
 #!/bin/bash
 #read command take si/p from terminla
 
-
+# get values from prompting
 echo "please enter user name"
 
 read username # what ever entered in terminal is stored in user name variable
