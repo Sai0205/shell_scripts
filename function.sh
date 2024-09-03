@@ -26,6 +26,6 @@ yum install mysql -y
 
 VALIDATE $?
 
-yum intsall postfix -y
+yum install postfix -y
 
 VALIDATE $? 
