@@ -15,7 +15,7 @@ fi
 #our resp to check right coomand or not
 yum install mysql -y
 
-if [ $? -ne =0 ]
+if [ $? -ne 0 ]
 then  
     echo "installation of mysql is error"
     exit 1
