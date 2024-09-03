@@ -13,7 +13,7 @@ VALIDATE(){
         exit 1
     else
         echo "success"
-
+    fi
 }
 
 if [ $userid -ne 0]
