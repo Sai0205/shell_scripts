@@ -28,4 +28,4 @@ VALIDATE $?
 
 yum intsall postfix -y
 
-VALIDATE $?
+VALIDATE $? 
