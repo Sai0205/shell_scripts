@@ -27,3 +27,13 @@ fi
 
 #lsss -la fialure
 #ls -la pass 
+
+yum install postfix -y
+
+if [ $? -ne 0 ]
+then  
+    echo "installation of mysql is error"
+    exit 1
+else
+    echo "success"
+fi  
